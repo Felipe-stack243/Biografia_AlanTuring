@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth; /* Permite que al dezplazarse por medio de anclas, la transición no sea brusca, sino que se desliza de forma suave */
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: hsl(219, 100%, 14%);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(240, 53%, 93%);
+    border-radius: 10px;
+    margin-bottom: 30px; /* Establesco un margen exterior hacia abajo para dar un espacio entre el título y la imagen */
+}
+
+img {
+    display: block;
+    margin: 40px auto; /* Establesco un espacio de margen de 25px arriba y abajo de la imagen y la centro usando el valor "auto" */
+    width: 280px;
+    height: 280px;
+    border-radius: 50%; /* Agrego un borde redondeado para dar el estilo circulo a la imagen */
+    object-fit: cover; /* Ajusto la imagen con respecto a los valores que están asignados en width y en height */
+}
+
+h2 {
+    color: #1871A3;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+ul {
+    color: #363949;
+    list-style: none; /* Quito el estilo de lista que viene por defecto */
+}
+
+li {
+    margin: 30px 0;
+}
+
+em {
+    color: #7380ec;
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: #d9534f;
+}
+
+hr {
+    height: 2px;
+    background-color: #848bc86f;
+    border: none;
+}
+
+a {
+    padding: 12px 20px;
+    background-color: hsl(225, 73%, 57%);
+    color: #fff;
+    border-radius: 26px;
+    text-decoration: none;
+}
